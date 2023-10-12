@@ -1,9 +1,9 @@
-# @gravity-ui/prettier-config
+# @diplodoc/prettier-config
 
 ## Install
 
 ```
-npm install --save-dev prettier @gravity-ui/prettier-config
+npm install --save-dev prettier @diplodoc/prettier-config
 ```
 
 ## Usage
@@ -11,5 +11,5 @@ npm install --save-dev prettier @gravity-ui/prettier-config
 Add `.prettierrc.js` file in the project root with the following content:
 
 ```js
-module.exports = require('@gravity-ui/prettier-config');
+module.exports = require('@diplodoc/prettier-config');
 ```

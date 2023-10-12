@@ -1,7 +1,7 @@
 {
-  "name": "@gravity-ui/prettier-config",
+  "name": "@diplodoc/prettier-config",
   "version": "1.1.0",
-  "description": "Gravity UI Prettier config, following our styleguide",
+  "description": "diplodoc Prettier config, following our styleguide",
   "keywords": [
     "prettier",
     "config"
@@ -12,31 +12,20 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/gravity-ui/prettier-config"
+    "url": "https://github.com/diplodoc/prettier-config"
   },
   "bugs": {
-    "url": "https://github.com/gravity-ui/prettier-config/issues"
+    "url": "https://github.com/diplodoc/prettier-config/issues"
   },
-  "homepage": "https://github.com/gravity-ui/prettier-config#readme",
+  "homepage": "https://github.com/diplodoc/prettier-config#readme",
   "scripts": {
-    "prepare": "husky install",
     "lint": "npm run prettier -- --check",
-    "prettier": "prettier '**/*.{js,md,yaml,yml,json}'",
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "prettier": "prettier '**/*.{js,md,yaml,yml,json}'"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.7.1",
-    "@commitlint/config-conventional": "17.7.0",
-    "husky": "8.0.3",
-    "nano-staged": "^0.8.0",
     "prettier": "^3.0.3"
   },
   "peerDependencies": {
     "prettier": "*"
-  },
-  "nano-staged": {
-    "*.{js,md,yaml,yml,json}": [
-      "prettier --write"
-    ]
   }
 }
