@@ -1,6 +1,6 @@
 {
   "name": "@diplodoc/prettier-config",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "diplodoc Prettier config, following our styleguide",
   "keywords": [
     "prettier",
