@@ -1,6 +1,6 @@
 module.exports = {
+    extends: "@gravity-ui/prettier-config",
     bracketSpacing: false,
-    tabWidth: 4,
     printWidth: 100,
     singleQuote: true,
     trailingComma: 'all',
